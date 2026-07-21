@@ -81,6 +81,8 @@ NTANetAnalytics
 
 > Geo data (MaxMind GeoLite2) is approximate — read the map as regions, not pinpoints.
 
+![Allowed Inbound Flows from Threat-Intel IPs map](./Allowed%20Inbound%20Flows%20from%20Threat-Intel%20IPs.png)
+
 ## How to Use
 
 1. Open **Microsoft Sentinel** → **Workbooks** → **Add workbook** → **Advanced Editor** (`</>` icon).
