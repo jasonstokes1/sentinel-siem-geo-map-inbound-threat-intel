@@ -4,7 +4,7 @@
     {
       "type": 1,
       "content": {
-        "json": "# 🚨 Allowed Inbound Flows from Threat-Intel IPs\n\nCorrelates our **accepted inbound traffic** (`NTANetAnalytics`, any `FlowType`, `AllowedInFlows > 0`) against the **live threat-intel feed** (`ThreatIntelIndicators`). Each bubble is an external IP that is *both* on our TI watchlist **and** successfully sent traffic our network let in — the intersection worth investigating.\n\n**Bubble size = allowed inbound flows; color = bytes received (data volume that moved).** `Targets` = how many internal hosts it reached.\n\n> TI list is deduped (`arg_max by Id`), active-only, and coalesces the IP observable keys. Only sources the geo DB resolves to a **city + country** are shown. Enriched with `geo_info_from_ip_address()`."
+        "json": "# Allowed Inbound Flows from Threat-Intel IPs\n\nCorrelates our **accepted inbound traffic** (`NTANetAnalytics`, any `FlowType`, `AllowedInFlows > 0`) against the **live threat-intel feed** (`ThreatIntelIndicators`). Each bubble is an external IP that is *both* on our TI watchlist **and** successfully sent traffic our network let in — the intersection worth investigating.\n\n**Bubble size = allowed inbound flows; color = bytes received (data volume that moved).** `Targets` = how many internal hosts it reached.\n\n> TI list is deduped (`arg_max by Id`), active-only, and coalesces the IP observable keys. Only sources the geo DB resolves to a **city + country** are shown. Enriched with `geo_info_from_ip_address()`."
       },
       "name": "header",
       "id": "1a2b3c4d-0001-4a00-9000-000000000001"

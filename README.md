@@ -1,4 +1,4 @@
-# 🚨 Microsoft Sentinel SIEM — Geo Map 4: Allowed Inbound Flows from Threat-Intel IPs
+# Microsoft Sentinel SIEM — Geo Map 4: Allowed Inbound Flows from Threat-Intel IPs
 
 Part of a broader **Microsoft Sentinel SIEM** portfolio series. This workbook correlates two independent data sources — accepted network traffic and a live threat-intelligence feed — to answer the question that matters most: **not just who's out there, but who got in.**
 
